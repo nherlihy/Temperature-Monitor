@@ -1,0 +1,146 @@
+/*Yellowish color: #EBCE7E
+Orange color: #D65C47
+Red color: #BF2C46
+Maroon: #552437
+green: #547779*/
+
+:root{
+  --themeYellow: #EBCE7E;
+  --themeOrange: #D65C47;
+  --themeRed: #BF2C46;
+  --themeMaroon: #552437;
+  --themeGreen: #547779;
+  --themeLightGray: #B2B3B5;
+  --themeDarkGray: #59595A;
+  --themeTableHover: #8E8F90;
+}
+
+.masthead, .mastfoot, .cover-container{
+	width: 75%;
+}
+
+.btn-round{
+	border-radius: 17px;
+	background-color: var(--themeLightGray);
+	border-color: var(--themeLightGray);
+}
+
+.btn-group{
+	align-self: flex-end;
+}
+
+.masthead-brand{
+	text-align: center; 
+}
+
+
+.site-wrapper{
+	background-color: var(--themeOrange);
+}
+
+.site-wrapper-inner{
+	background-color: var(--themeOrange);
+}
+
+hr { 
+	width: 100%;
+    display: block;
+    border-top: 1px solid;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-width: 2px;
+    color: var(--themeLightGray);
+    background-color: var(--themeLightGray);
+}
+
+.cover-heading{
+	margin-bottom: 50px;
+}
+
+
+/*Li is and image with text beneath it */
+#cover-images ul li {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.what-we-do img {
+	align-self: center;
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	vertical-align: top;
+}
+
+.what-we-do strong{
+	color: #666666;
+}
+
+.what-we-do p{
+  text-align: center;
+	font-size: 120%;
+	font-family: inherit;
+}
+
+.what-we-do h4 {
+	font-size: 140%;
+	font-family: inherit;
+}
+
+#track-bills{
+	left: 0%;
+	margin-right: 60px;
+}
+
+#make-groups{
+	left: 33.33%;
+}
+
+#plan-expenses{
+	left: 66.66%;
+	margin-left: 60px;
+}
+
+
+/*CSS for the register and the login boxes*/
+#signup_modal{
+	color: var(--themeLightGray);
+}
+
+.modal-body, .modal-header{
+    color: #FFFFFF;
+    font-family: inherit;
+	background-color: var(--themeLightGray);
+}
+
+.modal-header{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.modal-body{
+	border-top-right-radius: 5px;
+  	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.text-muted {
+    color: #ffffff;
+}
+
+#create_account, #login_button{
+	background-color: var(--themeOrange);
+	border-radius: 25px;
+  	border-color: var(--themeLightGray);
+}
+
+#create_account:hover, #login_button:hover{
+  	border-color: var(--themeDarkGray);
+}
+
+.modal-dialog {
+    width: 400px;
+}
+
